@@ -16,14 +16,13 @@
 #
 # You should have received a copy of the GNU General Public License
 
-import colourlovers
 
 from setuptools import setup
 
 
 setup(
     name = 'python-colourlovers',
-    version = colourlovers.__version__,
+    version = '0.1.0', # update version in colourlovers/__init__.py
     author = 'Sebastian Vetter',
     author_email = 'sebastian@roadside-developer.com',
     url = 'http://python-colourlovers.readthedocs.org',
